@@ -1,0 +1,13 @@
+.font-poppins {
+  font-family: "Poppins", serif;
+}
+body {
+  font-family: "Poppins", serif;
+}
+.shadow-custom {
+  box-shadow: 0px 0px 14px 0px #0000001a;
+}
+.conatiner {
+  padding-left: 165px !important;
+  padding-right: 165px !important;
+}
