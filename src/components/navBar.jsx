@@ -28,7 +28,11 @@ export default function NavBar() {
     },
   ];
   return (
-    <nav className="h-[50px] bg-white flex items-center conatiner">
+   <div className="conatiner">
+     <nav className="h-[50px]  bg-white items-center hidden lg:flex">
+      {/* <div className="conatiner">
+        
+      </div> */}
       <ul className="flex justify-between w-full ">
         {navBarItems.map((item, index) => (
           <li key={index}>
@@ -47,5 +51,6 @@ export default function NavBar() {
       </ul>
       <ul></ul>
     </nav>
+   </div>
   );
 }

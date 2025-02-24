@@ -10,7 +10,7 @@ export default function Footer() {
 
   return (
     <div
-      className="relative conatiner flex items-center justify-center h-[483px] py-[33px] bg-cover bg-center"
+      className="relative flex items-center justify-center py-[33px] bg-cover bg-center"
       style={{ backgroundImage: `url(${footerBg})` }}
     >
       {/* Logo as background */}
@@ -20,8 +20,8 @@ export default function Footer() {
       />
 
       {/* Content on top of logo */}
-      <div className="relative z-10 w-full">
-        <div className="grid grid-cols-6 gap-10 text-white">
+      <div className="w-full conatiner">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 text-white">
           <div className="col-span-2">
             <img src={logo1} alt="" />
             <div className="max-w-[274px] mt-6">

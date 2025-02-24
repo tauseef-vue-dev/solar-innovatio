@@ -29,7 +29,7 @@ export default function QuickLinks() {
   ];
   return (
     <div>
-      <ul className="flex flex-col w-full mt-[45px] space-y-[22px]">
+      <ul className="flex flex-col w-full lg:mt-[45px] mt-[20px] lg:gap-6 gap-3">
         {quickLinks.map((item, index) => (
           <li key={index}>
             <a href={`#section-${item.id}`} className="text-base">

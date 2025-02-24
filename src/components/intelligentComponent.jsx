@@ -43,29 +43,36 @@ export default function IntelligentComponent() {
   ];
   return (
     <div
-      className="bg-cover bg-center conatiner py-[45px]"
+      className="bg-cover bg-center py-[45px]"
       style={{
         backgroundImage: `url(${bgImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+        backgroundBlendMode: "multiply",
       }}
     >
-      <div className="flex flex-col  gap-6 text-white items-center justify-center mx-auto max-w-[947px]">
-        <span className="text-center text-[36px] font-semibold leading-[30px] text-white font-poppins">
-          Connesso, Intelligente, Resistente
-        </span>
-        <div className="bg-white h-1 w-28 mt-2 rounded mx-auto"></div>
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-[76px] mt-16 mx-auto max-w-[1320px]">
-        {cardItems.map((item) => (
-          <div key={item.id} className="flex gap-4">
-            <img className="h-[61px]" src={dollarImg} alt="" /> 
-            <div className="flex flex-col">
-              <p className="text-[20px] font-bsemibold text-white mb-2.5">
-                {item.title}
-              </p>
-              <p className="text-white text-sm">{item.description}</p>
+      <div className="conatiner">
+        <div className="flex flex-col  gap-6 text-white items-center justify-center mx-auto max-w-[947px]">
+          <span className="text-center text-[36px] font-semibold leading-[30px] text-white font-poppins">
+            Connesso, Intelligente, Resistente
+          </span>
+          <div className="bg-white h-1 w-28 mt-2 rounded mx-auto"></div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[76px] mt-16 mx-auto max-w-[1320px]">
+          {cardItems.map((item) => (
+            <div key={item.id} className="flex gap-4">
+              <img className="h-[61px]" src={dollarImg} alt="" />
+              <div className="flex flex-col">
+                <p className="text-[20px] font-bsemibold text-white mb-2.5">
+                  {item.title}
+                </p>
+                <p className="text-white text-sm">{item.description}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

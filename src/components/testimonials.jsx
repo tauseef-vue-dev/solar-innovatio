@@ -5,8 +5,8 @@ import afterImg from "../assets/after.svg";
 
 export default function Testimonials() {
   return (
-    <div className="py-[100px] px-16 relative">
-      <div className="absolute left-[100px]">
+    <div className="py-[100px] px-8 lg:px-16 relative">
+      <div className="absolute left-[100px] hidden md:block">
         <img src={dotsImage} alt="" />
       </div>
       <div className="max-w-[1153px] mx-auto flex flex-col items-center justify-center mt-3">
