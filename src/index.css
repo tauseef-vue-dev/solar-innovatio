@@ -10,4 +10,6 @@ body {
 .conatiner {
   padding-left: 165px !important;
   padding-right: 165px !important;
+  max-width: 1440px !important;
+  margin: 0 auto !important;
 }
