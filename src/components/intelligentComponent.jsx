@@ -54,7 +54,7 @@ export default function IntelligentComponent() {
         </span>
         <div className="bg-white h-1 w-28 mt-2 rounded mx-auto"></div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-[76px] mt-16 px-10 mx-auto max-w-[1320px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-[76px] mt-16 mx-auto max-w-[1320px]">
         {cardItems.map((item) => (
           <div key={item.id} className="flex gap-4">
             <img className="h-[61px]" src={dollarImg} alt="" /> 

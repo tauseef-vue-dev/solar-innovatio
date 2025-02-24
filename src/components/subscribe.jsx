@@ -9,7 +9,7 @@ export default function Subscribe() {
         backgroundImage: `url(${subscribBg})`,
       }}
     >
-      <div className="flex flex-col gap-3 text-white max-w-[503px] px-[36px]">
+      <div className="flex flex-col gap-3 text-white max-w-[503px]">
         <span className="text-[24px] font-semibold">
           Subscribe for Newsletter
         </span>

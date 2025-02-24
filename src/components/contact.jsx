@@ -9,7 +9,7 @@ export default function Contact() {
         CONTACT US
       </span>
       <div className="bg-[#81BD48] h-1 w-28 mt-6 rounded"></div>
-      <div className="grid grid-cols-3 gap-6 w-full mt-8 px-[32px]">
+      <div className="grid grid-cols-3 gap-6 w-full mt-8">
         <div className="col-span-1 border border-[#DEDEDE] rounded-[9px] pl-7 pr-6 py-7 flex flex-col">
           <ContactDetails />
         </div>
