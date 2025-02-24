@@ -2,17 +2,16 @@ import React from "react";
 import dotsImage from "../assets/dots-icon.png";
 import beforeImg from "../assets/before.svg";
 import afterImg from "../assets/after.svg";
+import Title from "./common/Title/title";
 
 export default function Testimonials() {
   return (
-    <div className="py-[100px] px-8 lg:px-16 relative">
+    <div className="py-[100px] container relative">
       <div className="absolute left-[100px] hidden md:block">
         <img src={dotsImage} alt="" />
       </div>
       <div className="max-w-[1153px] mx-auto flex flex-col items-center justify-center mt-3">
-        <span className="text-[36px] font-semibold leading-[30px] text-[#86BE3F] font-poppins">
-          Chi Siamo
-        </span>
+        <Title text="Chi Siamo" color="#86BE3F" />
         <div className="bg-[#81BD48] h-1 w-28 mt-6 rounded"></div>
         <div className="mt-10 max-w-[1120px] mx-auto">
           <p className="text-[17px] font-normal text-center text-[#666666]">

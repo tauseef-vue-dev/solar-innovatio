@@ -7,28 +7,28 @@ body {
 .shadow-custom {
   box-shadow: 0px 0px 14px 0px #0000001a;
 }
-.conatiner {
-  padding-left: 165px !important;
-  padding-right: 165px !important;
+.container {
+  padding-left: 150px !important;
+  padding-right: 150px !important;
   max-width: 1440px !important;
   margin: 0 auto !important;
 }
 @media (max-width: 768px) {
-  .conatiner {
-    padding-left: 60px !important;
-    padding-right: 60px !important;
-    margin: 0 auto !important;
-  }
-}
-@media (max-width: 521px) {
-  .conatiner {
+  .container {
     padding-left: 40px !important;
     padding-right: 40px !important;
     margin: 0 auto !important;
   }
 }
+@media (max-width: 521px) {
+  .container {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin: 0 auto !important;
+  }
+}
 @media (max-width: 375px) {
-  .conatiner {
+  .container {
     padding-left: 20px !important;
     padding-right: 20px !important;
     margin: 0 auto !important;
