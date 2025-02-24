@@ -7,6 +7,8 @@ import IntelligentComponent from "./components/intelligentComponent";
 import Contact from "./components/contact";
 import Subscribe from "./components/subscribe";
 import SliderComponent from "./components/sliderComponent";
+// import Averlo from "./components/averlo";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <SliderComponent />
       <Contact />
       <Subscribe />
+      <Footer />
     </>
   );
 }
